@@ -97,6 +97,10 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
+```
+nest g controller boards --no-spec
+```
+
 | 옵션          | 별칭        | 설명                                     |
 | ------------- | ----------- | ---------------------------------------- |
 | application   | application | 새로운 애플리케이션 워크스페이스 생성    |
@@ -127,10 +131,10 @@ nest new project-name
 ## 빨간색 물결표시(eslint.config.mjs)
 
 ```
-      'prettier/prettier': [
-        'error',
-        {
-          endOfLine: 'auto',
-        },
-      ],
+  'prettier/prettier': [
+    'error',
+    {
+      endOfLine: 'auto',
+    },
+  ],
 ```
